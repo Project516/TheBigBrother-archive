@@ -86,7 +86,7 @@
 
 ## 🚀 Installation
 
-### Quick Setup
+### Quick Setup (Windows)
 
 ```bash
 # 1. Install dependencies
@@ -98,8 +98,19 @@ playwright install chromium
 # 3. Launch
 python -m uvicorn the_big_brother.gui.main:app --port 8000
 ```
+### Quick Setup (Linux)
+```bash
+# 1. Install dependencies
+python3 -m venv .venv
+source .venv/bin/activte
+python3 -m pip install -r requirements.txt
 
-**Access**: Open browser to `http://127.0.0.1:8000`
+# 2. Install browser
+playwright install chromium
+
+# 3. Launch
+python3 -m uvicorn the_big_brother.gui.main:app --port 8000
+```**Access**: Open browser to `http://127.0.0.1:8000`
 
 > See [SETUP.md](SETUP.md) for detailed installation on Windows, macOS, and Linux
 
