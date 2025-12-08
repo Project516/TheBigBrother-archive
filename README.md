@@ -110,6 +110,8 @@ playwright install chromium
 
 # 3. Launch
 python3 -m uvicorn the_big_brother.gui.main:app --port 8000
+```
+
 ```**Access**: Open browser to `http://127.0.0.1:8000`
 
 > See [SETUP.md](SETUP.md) for detailed installation on Windows, macOS, and Linux
