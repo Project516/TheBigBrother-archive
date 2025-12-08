@@ -175,8 +175,7 @@ Custom enterprise version available with:
 - Priority support
 
 *Contact for custom solutions*
-
----
+Telegram : Hisoka0morow
 
 ## ⚠️ Disclaimer
 
