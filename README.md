@@ -158,7 +158,8 @@ Complete Scan → Click EXPORT DATA → Download CSV
 
 ## 📸 Screenshots
 
-> *Add your screenshots here when creating GitHub release*
+><img width="1658" height="843" alt="Screenshot 2025-12-07 at 18 19 35" src="https://github.com/user-attachments/assets/183608e2-daa7-4f2a-bfd4-ef80b4c7518e" />
+
 
 ---
 
