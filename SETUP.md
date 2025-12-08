@@ -165,12 +165,6 @@ poetry install
 poetry run playwright install chromium
 ```
 
-#### Method 3: Docker
-```bash
-cd the_big_brother_v2.1
-docker build -t the-big-brother:2.1 .
-docker run -p 8000:8000 the-big-brother:2.1
-```
 
 ---
 
@@ -255,7 +249,7 @@ python3 -m uvicorn the_big_brother.gui.main:app --port 8080
 ```
 1. Complete basic scan first
 2. Click any profile image
-3. Watch "Target Analysis" animation
+3. Watch "Target Analysis" 
 4. View results from 4 engines
 5. Download similar images
 ```
@@ -314,17 +308,6 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
     }
 }
-```
-
-### Docker Compose
-```yaml
-version: '3.8'
-services:
-  bigbrother:
-    build: .
-    ports:
-      - "8000:8000"
-    restart: unless-stopped
 ```
 
 ---
